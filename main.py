@@ -9,8 +9,8 @@ from maze_tools.converter.text_converter import TextConverter
 def main():
     """Главная функция"""
 
-    WIDTH_MAZE = 30
-    HEIGTH_MAZE = 30
+    WIDTH_MAZE = 100
+    HEIGTH_MAZE = 100
 
     # Генерация лабиринта.
     maze_generator = EulerGenerator()
